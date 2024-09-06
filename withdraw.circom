@@ -53,4 +53,4 @@ template Withdraw() {
     recipientSquare <== recipient * recipient;
 }
 
-component main {public [recipient]} = Withdraw();
+component main {public [recipient, nullifierHash]} = Withdraw();
